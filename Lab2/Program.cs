@@ -328,10 +328,10 @@ public class Program
 
         // code here
 
-        for (int i = 0; i <= 29; i++)
+        for (int i = 0; i < n; i++)
         {
             double a = double.Parse(Console.ReadLine());
-            if (a >= norm)
+            if (a <= norm)
             {
                 answer++;
             }
